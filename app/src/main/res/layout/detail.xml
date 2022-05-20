@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:showDividers="middle"
+        android:divider="@drawable/empty_tall_divider"
+        android:padding="50px">
+
+
+
+        <ImageView
+            android:id="@+id/flagView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/countryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/empty_tall_divider"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/codeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/code"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/codeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/empty_tall_divider"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+
+
+            <TextView
+                android:id="@+id/capitalLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:text="@string/capital" />
+
+            <TextView
+                android:id="@+id/capitalText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/empty_tall_divider"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/areaLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:text="@string/area" />
+
+            <TextView
+                android:id="@+id/areaText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/empty_tall_divider"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+            <TextView
+                android:id="@+id/populationLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:text="@string/population" />
+
+            <TextView
+                android:id="@+id/populationText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/empty_tall_divider"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/currencyLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:text="@string/currency" />
+
+            <TextView
+                android:id="@+id/currencyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/empty_tall_divider"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+            <TextView
+                android:id="@+id/languagesLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:text="@string/languages" />
+
+            <TextView
+                android:id="@+id/languagesText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="30px"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/empty_tall_divider"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+            <TextView
+                android:id="@+id/continentLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:text="@string/continent" />
+
+            <TextView
+                android:id="@+id/continentText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="30px"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/empty_tall_divider"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+            <TextView
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+
+                android:text="@string/map" />
+
+            <ImageView
+                android:id="@+id/mapView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:gravity="center"
+                tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Nation and Currency</string>
+    <string name="country">LIST OF COUNTRY</string>
+    <string name="rate">CURRENCY CONVERTER</string>
+    <string name="code">Country Code</string>
+    <string name="capital">Capital</string>
+    <string name="area">Area</string>
+    <string name="population">Population</string>
+    <string name="currency">Currency</string>
+    <string name="languages">languages</string>
+    <string name="continent">Continent Name</string>
+
+    <string name="map">Map</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="amount">Amount</string>
+    <string name="result">Result</string>
+</resources>

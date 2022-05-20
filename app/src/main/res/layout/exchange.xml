@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="UselessParent"
+        android:showDividers="middle"
+        android:divider="@drawable/empty_tall_divider">
+
+
+        <TextView
+            android:id="@+id/titleExchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/rate"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left"
+        tools:ignore="UselessParent"
+        android:padding="30px"
+        android:showDividers="middle"
+        android:divider="@drawable/empty_tall_divider">
+
+        <TextView
+            android:id="@+id/txtFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/from"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+        <Spinner
+            android:id="@+id/ExchangeFrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:spinnerMode="dropdown" />
+
+
+        <TextView
+            android:id="@+id/txtAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amount"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/numFrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="0.0"
+            android:layout_margin="20px"
+            android:inputType="number" />
+
+
+        <TextView
+            android:id="@+id/txtTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+
+        <Spinner
+            android:id="@+id/ExchangeTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20px"
+            android:spinnerMode="dropdown" />
+
+
+        <TextView
+            android:id="@+id/txtResut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/result"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+
+        <EditText
+            android:id="@+id/numTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="20px"
+            android:inputType="number"
+            android:focusable="false"/>
+
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/btnConfỉrm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm" />
+
+    </LinearLayout>
+
+</ScrollView>
